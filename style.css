@@ -1,0 +1,74 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #777;
+}
+.services {
+  padding-bottom: 120px;
+}
+.services_container {
+  max-width: 934px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.services_title {
+  font-size: 40px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: #222;
+}
+.services_cards {
+  display: flex;
+  gap: 25px;
+}
+.services_card {
+  max-width: 275px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+/* Блок зображення  */
+.services_card-logo {
+  width: 70px;
+  height: 70px;
+  border: 3px solid #fed136;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+}
+/* Зображення */
+.icon {
+  fill: #fed136;
+  transition: all 0.3s ease-in;
+}
+/* Зміна блоку зображення */
+.services_card:hover .services_card-logo {
+  background-color: #fed136;
+  border-radius: 10%;
+  box-shadow: 0px 2px 2px 2px #777;
+}
+
+/* Зміна зображення */
+.services_card:hover .icon {
+  fill: #fff;
+  transform: scale(1.2);
+}
+
+.services_card-title {
+  font-size: 18px;
+  letter-spacing: -0.45px;
+  color: #222;
+}
+.services_card-text {
+  text-align: center;
+  color: #777;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  letter-spacing: -0.35px;
+}
